@@ -100,7 +100,7 @@ const Player = ({ activeSong, isPlaying }) => {
 
 
   return (
-    <div className="w-full bg-slate-100 fixed bottom-0 text-center flex justify-center space-x-5">
+    <div className="w-full bg-slate-100 fixed bottom-0 text-center flex justify-center gap-5">
       <div className="w-20 h-20 p-2 rounded-full">
         <img src={activeSong?.song?.image} className="rounded-full" />
       </div>
